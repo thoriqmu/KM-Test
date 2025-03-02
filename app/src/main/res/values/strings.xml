@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">KM Test</string>
+    <string name="app_name">Suitmedia Test</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="name">Name</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
 </resources>

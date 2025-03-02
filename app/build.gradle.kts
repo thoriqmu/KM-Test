@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.test.kmtest"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.test.kmtest"
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
