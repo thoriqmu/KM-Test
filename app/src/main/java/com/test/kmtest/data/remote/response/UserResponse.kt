@@ -10,10 +10,10 @@ data class UserResponse(
 )
 
 data class DataItem(
-	val lastName: String? = null,
+	val last_name: String? = null,
 	val id: Int? = null,
 	val avatar: String? = null,
-	val firstName: String? = null,
+	val first_name: String? = null,
 	val email: String? = null
 )
 

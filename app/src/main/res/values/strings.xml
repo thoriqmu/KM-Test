@@ -14,4 +14,10 @@
     <string name="selected_user_label">Selected User Name</string>
     <string name="choose_user">Choose a User</string>
 
+    // Third Screen
+    <string name="third_screen">Third Screen</string>
+    <string name="user_name">Firstname Lastname</string>
+    <string name="user_email">email@email.com</string>
+    <string name="no_user">No User Found</string>
+
 </resources>
