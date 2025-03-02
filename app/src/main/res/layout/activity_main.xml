@@ -11,7 +11,7 @@
     tools:context=".view.firstscreen.MainActivity">
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/photo"
+        android:id="@+id/iv_photo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -21,7 +21,7 @@
         app:shapeAppearanceOverlay="@style/image_rounded" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nameInputLayout"
+        android:id="@+id/it_layout_name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         app:boxCornerRadiusTopEnd="15dp"
         app:boxCornerRadiusTopStart="15dp">
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/nameInput"
+            android:id="@+id/it_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/name"
@@ -42,7 +42,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/palindromeInputLayout"
+        android:id="@+id/it_layout_palindrome"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         app:boxCornerRadiusTopStart="15dp" >
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/palindromeInput"
+            android:id="@+id/it_palindrome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/palindrome"
@@ -64,7 +64,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnCheck"
+        android:id="@+id/btn_check"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="@string/check"
@@ -74,7 +74,7 @@
         android:layout_marginTop="40dp"/>
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btn_next"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="@string/next"

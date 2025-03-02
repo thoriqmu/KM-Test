@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">KM Test</string>
+
+    // First Screen
     <string name="palindrome">Palindrome</string>
     <string name="name">Name</string>
     <string name="check">CHECK</string>
     <string name="next">NEXT</string>
+
+    // Second Screen
+    <string name="screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="name_label">John Doe</string>
+    <string name="selected_user_label">Selected User Name</string>
+    <string name="choose_user">Choose a User</string>
+
 </resources>

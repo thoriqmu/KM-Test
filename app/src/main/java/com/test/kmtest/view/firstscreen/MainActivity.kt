@@ -28,12 +28,8 @@ class MainActivity : AppCompatActivity() {
                 .show()
         }
 
-        viewModel.name.observe(this) { name ->
-            // Name untuk second screen
-        }
-
         binding.btnCheck.setOnClickListener {
-            val palindromeInput = binding.palindromeInput.text.toString()
+            val palindromeInput = binding.itPalindrome.text.toString()
             if (palindromeInput.isNotEmpty()) {
                 viewModel.checkPalindrome(palindromeInput)
             } else {
@@ -45,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnNext.setOnClickListener {
-            val nameInput = binding.nameInput.text.toString()
+            val nameInput = binding.itName.text.toString()
             if (nameInput.isNotEmpty()) {
                 viewModel.setName(nameInput)
                 val intent = Intent(this, SecondScreenActivity::class.java)
